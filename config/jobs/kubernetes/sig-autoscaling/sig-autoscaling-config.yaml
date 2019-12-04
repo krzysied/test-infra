@@ -146,7 +146,7 @@ periodics:
       - --test=false
       - --test-cmd=../vertical-pod-autoscaler/hack/run-e2e.sh
       - --test-cmd-args=updater
-      - --timeout=80m
+      - --timeout=85m
       # docker-in-docker needs privileged mode
       securityContext:
         privileged: true
